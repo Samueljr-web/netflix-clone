@@ -26,7 +26,7 @@ const Header = () => {
       </div>
       {/* Herosection content */}
       <div className="text-white mt-24 flex flex-col items-center justify-center w-full h-full">
-        <div className="sm:w-[50%] w-full px-5 text-center">
+        <div className="md:w-[50%] w-full px-5 text-center">
           <h1 className="sm:text-[3.2rem] leading-[3.8rem] text-[1.8rem] font-bold">
             Unlimited movies, TV shows, and more.
           </h1>
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
 
         <form className="text-center sm:w-full w-[19rem] mt-5 h-[15rem]">
-          <h2 className="sm:w-full sm:text-xl w-[18rem] font-semibold">
+          <h2 className="md:w-full md:text-xl w-[18rem] font-semibold">
             Ready to watch? Enter your email to create or restart your
             membership.
           </h2>
@@ -42,7 +42,7 @@ const Header = () => {
               <div className='sm:w-[28rem] w-[20rem]'>
                 <input
                 placeholder="Email Address"
-                className="w-full p-[15px] mt-2 sm:h-full h-[43px]"
+                className="w-full p-[15px] text-black outline-none mt-2 sm:h-full h-[43px]"
               />
               </div>
             <button className="bg-[#DD3A37] items-center sm:p-5 p-2 w-auto sm:h-[52px] h-10 ml-[0.1rem] mt-[0.48rem] inline-flex"type='submit'>
